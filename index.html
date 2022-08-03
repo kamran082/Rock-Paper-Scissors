@@ -9,6 +9,23 @@
 </head>
 <body>
     <header id="header">Rock-Paper-Scissors</header>
+    <section>
+        <div id="result"><h1 id="resultText">Result: </h1></div>
+        <div id="game">
+          <div><h2  id="youChoice">You: </h2></div> 
+          <div><h2  id="computerChoice">Computer: </h2></div>
+        </div> 
+   
+        <div id="btn">
+            <button class="choiceClick"><img src="rock.jpg" alt="rock">ROCK</button>
+            <button class="choiceClick"><img src="paper.jpg" alt="rock">PAPER</button>
+            <button class="choiceClick"><img src="scissors.jpg" alt="rock">SCISSORS</button>
+        </div>
+        
+        <div id="reset">
+            <button  type="reset" value="Reset" onClick="window.location.reload()">Reset</button>
+        </div>
+     </section>
     
     <script src="assets/js/script.js"></script>
 </body>
