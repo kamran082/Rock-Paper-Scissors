@@ -1,6 +1,7 @@
 body {
     font-family: Georgia,  serif;   
 }
+        /*header*/
 
 #header {
     width: 300px;
@@ -11,7 +12,8 @@ body {
     border-radius: 5px;
     background-color: aquamarine;
 }
-
+    /*section */
+    
 #result {
     width: 200px;
     height: 50px;
@@ -65,6 +67,9 @@ img {
     margin-top: 20px;
     text-align: center;
 }
+
+    /* Media Quries*/
+
 @media (max-width:425px) {
     #btn {
         margin-left: 55px;
